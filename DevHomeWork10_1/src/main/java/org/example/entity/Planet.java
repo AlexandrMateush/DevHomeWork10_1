@@ -4,6 +4,7 @@ package org.example.entity;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "planet")
 public class Planet {
     @Id
     private String id;
