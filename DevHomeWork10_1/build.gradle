@@ -18,12 +18,12 @@ dependencies {
     implementation 'com.h2database:h2:1.4.200'
     implementation 'org.flywaydb:flyway-core:8.0.3'
 
-    implementation 'org.testcontainers:testcontainers:1.16.0'
-    implementation 'org.testcontainers:postgresql:1.16.0'
-
-    // ...
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+//    implementation 'org.testcontainers:testcontainers:1.16.0'
+//    implementation 'org.testcontainers:postgresql:1.16.0'
+//
+//    // ...
+//    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+//    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 
 }
 flyway {
